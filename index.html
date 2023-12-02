@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>WEB PERTAMA</title>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<img src="assets/instagram.png" alt="logo" class="logo-img"/>
+				<h1 class="logo-title">SYAM</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#tentang">TENTANG</a></li>
+					<li><a href="#kontak">KONTAK</a></li>
+				</ul>
+			</nav>
+			<button class="btn-cta" onclick="redirInstagram()">Follow</button>
+		</header>
+		<div class="container">
+			<div class="intro">
+				<p class="title">Hello, Syamsul Here!</p>
+				<p class="description">Technology Influencer From Village</p>
+				<img src="assets/foto1.jpg" alt="foto1" class="img-foto1"/>
+			</div>
+		</div>
+		<div class="parallax">
+			<div class="tentang" id="tentang">
+				<p class="title">I Am a Programmer</p>
+				<p class="description">Wait for me in the future hahaha</p>
+				<div class="mt-10">
+					<button class="btn-cta" onclick="redirWhatsapp()">Mari Berkolaborasi</button>
+				</div>
+			</div>
+			<div class="container">
+				<div class="card" id="kontak">
+					<div class="card-item">
+						<img src="assets/whatsapp.png" alt="icon-1" class="icon"/>
+						<p class="card-title">Saya suka jalan jalan</p>
+						<p class="card-description">Jalan jalan bisa membuat suasana hati menjadi baik dan menambah kreativitas</p>
+					</div>
+					<div class="card-item">
+						<img src="assets/linkedin.png" alt="icon-2" class="icon"/>
+						<p class="card-title">Saya suka jalan jalan</p>
+						<p class="card-description">Jalan jalan bisa membuat suasana hati menjadi baik dan menambah kreativitas</p>
+					</div>
+					<div class="card-item">
+						<img src="assets/dropbox.png" alt="icon-3" class="icon"/>
+						<p class="card-title">Saya suka jalan jalan</p>
+						<p class="card-description">Jalan jalan bisa membuat suasana hati menjadi baik dan menambah kreativitas</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<p class="title">&copy; Syam Website 2023</p>
+		</footer>
+
+		<script>
+			function redirInstagram () {
+				window.location.href = "https://instagram.com/syamsul_huda7"
+			}
+			
+			function redirWhatsapp () {
+				window.location.href = "https://wa.me/6281229670740"
+			}
+		</script>
+
+	</body>
+</html>
